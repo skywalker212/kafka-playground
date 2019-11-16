@@ -1,0 +1,12 @@
+# List of words that you need to know
+- *Producer*: Application that sends the messages.
+- *Consumer*: Application that receives the messages.
+- *Message*: Information that is sent from the producer to a consumer through Apache Kafka.
+- *Connection*: A connection is a TCP connection between your application and the Kafka broker.
+- *Topic*: A Topic is a category/feed name to which messages are stored and published.
+- *Topic partition*: Kafka topics are divided into a number of partitions, which allows you to split data across multiple brokers.
+- *Replicas*: A replica of a partition is a "backup" of a partition. Replicas never read or write data. They are used to prevent data loss.
+- *Consumer Group*: A consumer group includes the set of consumer processes that are subscribing to a specific topic.
+- *Offset*: The offset is a unique identifier of a record within a partition. It denotes the position of the consumer in the partition.
+- *Node*: A node is a single computer in the Apache Kafka cluster. (This could also be called a broker, although I'm not sure).
+- *Cluster*: A cluster is a group of nodes i.e., a group of computers.
